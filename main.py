@@ -14,7 +14,7 @@ def create_player():
             print("Пожалуйста, введите корректное число.")
     return {"name": name, "balance": start_balance, "target": start_balance * 5}
 
-# Функция для игры "Монетка"
+# Функция для игры "Монетка".
 def play_coin_toss(player):
     bet = int(input("Введите ставку на игру 'Монетка': $"))
     if bet > player["balance"]:
